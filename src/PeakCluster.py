@@ -16,7 +16,7 @@ from scipy.interpolate import UnivariateSpline
 from torchvision import datasets, models, transforms, utils
 from sklearn.preprocessing import StandardScaler
 
-data_dir        = 'patches'
+data_dir        = 'data'
 num_workers     = 4
 crop_size       = 11
 data_transforms = transforms.Compose([transforms.CenterCrop(crop_size),
